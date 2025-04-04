@@ -55,7 +55,7 @@ E.g:-     <body class="container-fluid">
 E.G: <body style="height: 500px;" class="container-fluid d-flex justify-content-center align-items-center">
      <div class="text-center">
         <h1>Netflix</h1>
-        <p>Watch movies , tv shows online.</p>
+        <p>Watch movies , tv shows online.</p>      .
     
     </div>
     </body>
