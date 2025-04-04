@@ -1,0 +1,28 @@
+---- Bootstrap Components
+1. alerts
+   - Embedded message boxes in page
+   - You can control with jQuery attributes
+
+* Classes:
+  .alerts
+  .alert-dismissible
+  .alert-{contextual}
+  .alert-title
+  .alert-link
+
+  ** attributes:
+  data-bs- dismiss  close any Component
+  E.G :
+
+      <div class="alert alert-danger alert-dismissible ">
+        <h1 class="alert-title">Delete Records</h1>
+        <button class="btn btn-close" data-bs-dismiss="alert"></button>
+        <p class="alert-subtitle">Record will be deleted.</p>
+        <a class="alert-link">Help?</a>
+    </div> 
+    <div class="alert alert-success">
+        <h1 class="alert-title">Record Inserted</h1>
+        <p class="alert-subtitle">Record Inserted successfully..</p>
+        <button data-bs-dismiss="alert">ok</button>
+    </div>
+

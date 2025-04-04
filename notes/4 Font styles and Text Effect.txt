@@ -1,0 +1,13 @@
+          Fonts Styles--------------
+.fw-bold --------bold
+.fst-italic------italic
+.fs-{1 to 6}-----size
+
+
+    ------ Text Effect----
+
+.text-center
+.text-start
+.text-end
+.text-justify
+.text-{contextual}

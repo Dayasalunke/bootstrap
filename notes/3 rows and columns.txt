@@ -1,0 +1,31 @@
+** Rows and Columns[Grid]
+  
+  .row
+  .col
+  .col- {1 to 12}
+e.g : 
+  <h2>Products Details</h2>
+  <dl class="row border bor">
+    <dt class="col-3">Name</dt>
+    <dd class="col-9">Nike Casuals</dd>
+    <dt class="col-3">Price</dt>
+    <dd class="col-9">5566</dd>
+    <dt class="col-3">Stock</dt>
+    <dd class="col-9">Available</dd>
+  </dl>
+
+  e.g 2 :
+    <div class="row">
+    <div class="col-2 border border-primary">col-1</div>
+    <div class="col-8 border border-primary">col-2</div>
+    <div class="col-2 border border-primary">col-3</div>
+  </div>
+  <div class="row m-2">
+    <div class="col-6 border border-primary">col-1</div>
+    <div class="col-6 border border-primary">col-2</div>
+  </div>
+
+  Summary
+  -Display
+  -position
+  -Rows and Columns

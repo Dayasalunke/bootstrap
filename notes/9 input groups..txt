@@ -1,0 +1,33 @@
+ ** Input Groups----
+ .input group
+ .input-group-text
+ .input-group-lg
+
+E.g:
+<body class="container-fluid ">
+    <h2>Amazon Search</h2>
+    <div class="input-group">
+        <select class="input group-text">
+            <option>All</option>
+            <option>Mobiles</option>
+            <option>Fashions</option>
+            <option>Electric</option>
+        </select>
+        <input type="text" class="form-control" placeholder="Search in Amazon">
+        <button class="btn btn-warning">
+            <span class="bi bi-search"></span>
+        </button>
+    </div>
+    <h2>Netflix</h2>
+    <div class="input-group input-group-lg">
+       <input type="input" class="form-control" placeholder="your Email address"> 
+       <button class="btn btn-danger">
+        Get Started <span class="bi bi-chevron-right"></span>
+       </button>
+    </div>
+    <h2>Verify Account</h2>
+    <div class="input-group">
+        <span class="bi bi-key-fill input-group-text"></span>
+        <input type="password" class="form-control" placeholder="your password">
+        <button class="btn btn-success">Verify</button>
+    </div>

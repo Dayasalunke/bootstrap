@@ -1,0 +1,10 @@
+   *** Positions :-
+   1> position-relative
+   2> position-absolute
+   3> position-static
+   4> position-sticky
+
+   .top - {0,25,50,75,100}
+   .bottom- 
+   .start- 
+   .end - 

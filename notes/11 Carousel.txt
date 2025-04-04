@@ -1,0 +1,33 @@
+** Carousel-------------
+
+****Basic Classes****
+.carousel
+.carousel-inner
+.carousel-item
+.active         :one item must  be active
+.slide          :it defines sliding animation
+
+*** Basic Attribute ****
+.data-bs-ride  : to start animation
+
+Control Classes----
+.carousel-control-prev
+.carousel-control-prev-icon
+.carousel-control-next
+.carousel-control-next-icon
+.carousel-dark
+
+Attribute
+data-bs-slide="prev"
+data-bs-slide="next"
+data-bs-target="#bannerld"
+
+indicator Classes
+.carousel-indicators
+.active
+
+Attribute
+data-bs-slid-to-'0'
+
+Timings
+data-bs-interval="1000"   // 1 sec

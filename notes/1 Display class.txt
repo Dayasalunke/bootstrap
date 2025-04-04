@@ -1,0 +1,61 @@
+1>  .d-none   -  remove the element 
+2>  .d-block  - display the element
+3>  .d-inline - means every elements is side by side
+4>  .d-flex   -  flex is applied a container
+
+.inline - inline is applied to a elements in container
+e.g:  <nav>
+        <div class="d-inline">Home</div>
+        <div class="d-inline">About</div>
+        <div class="d-inline">Contact</div>
+      </nav>
+
+.flex : flex is applied a container.
+e.g:    <nav class="d-flex">
+        <div>Home</div>
+        <div>About</div>
+        <div>Contact</div>
+      </nav>
+ - flex can have alignment and direction
+
+   .justify-content-between/evenly
+    flex: d-flex,gap-0 to gap-5,justify-content-between/evenly/center/around/left/start/right/end
+    align-items-left/right/center/start/end
+    .flex-wrap
+    .flex-row
+    .flex-column
+
+    E.G:<nav class="d-flex justify-content-between">
+        <div>Home</div>
+        <div>About</div>
+        <div>Contact</div>
+        <div>Electronics</div>
+        <div>Footwear</div>
+      </nav>
+
+FAQ : How to keep any content exactLY in a page?
+Ans: d-flex,justify-content-center, align items-center
+
+E.g:-     <body class="container-fluid">
+      <!-- <h2>Display Classes</h2>
+    <div class="d-flex justify-content-center align-items-center" style="height: 500px;">
+      <form class="border border-primary p-2 border-2">
+          <h2>User Login</h2>
+         <dl>
+            <dt>User Name</dt>
+            <dd><input type="text"></dd>
+            <dt>Password</dt>
+            <dd><input type="password"></dd>
+         </dl>
+         <button>Login</button>
+      </form>
+    </div>
+    </body>
+
+E.G: <body style="height: 500px;" class="container-fluid d-flex justify-content-center align-items-center">
+     <div class="text-center">
+        <h1>Netflix</h1>
+        <p>Watch movies , tv shows online.</p>
+    
+    </div>
+    </body>
